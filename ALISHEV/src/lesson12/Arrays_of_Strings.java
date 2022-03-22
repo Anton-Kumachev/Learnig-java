@@ -8,18 +8,20 @@ public class Arrays_of_Strings {
         strings[0] = "Привет, ";
         strings[1] = "пока";
         strings[2] = "Джава!";
-//        System.out.print(strings[0]);
-//        System.out.println(strings[2]);
-//
-//        for (int i = 0; i < strings.length; i++) {
-//            System.out.println(strings[i]);
-//        }
-        for(String string:strings) //Цикл for each;         Тип данных / переменная / массив
+        System.out.print(strings[0]);
+        System.out.println(strings[2]);
+        System.out.println();
+
+        for (int i = 0; i < strings.length; i++) {
+            System.out.println(strings[i]);
+        }
+        System.out.println();
+        for(String string : strings) //Цикл for each;         Тип данных / переменная / массив
             System.out.println(string);
 
         int[] numbers1 = {1, 2, 3};
         int sum = 0;
-        for(int x:numbers1) {     //Цикл for each;         Тип данных / переменная / массив
+        for(int x : numbers1) {     //Цикл for each;         Тип данных / переменная / массив
             sum = sum + x;
         }
         System.out.println("");
