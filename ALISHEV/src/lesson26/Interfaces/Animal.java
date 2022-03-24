@@ -1,9 +1,9 @@
-package lesson26;
+package lesson26.Interfaces;
 
 public class Animal implements Info {
     public int id;
 
-    public Animal(int id) {
+    public Animal(int id) { //конструктор
         this.id = id;
     }
     public void sleep() {

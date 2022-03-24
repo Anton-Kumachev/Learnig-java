@@ -1,9 +1,9 @@
-package lesson26;
+package lesson26.Interfaces;
 
 public class Person implements Info {
     public String name;
 
-    public Person(String name) {
+    public Person(String name) { //конструктор
         this.name = name;
     }
     public void sayHello() {
