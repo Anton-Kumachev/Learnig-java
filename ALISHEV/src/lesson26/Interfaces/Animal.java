@@ -1,6 +1,7 @@
 package lesson26.Interfaces;
 
-public class Animal implements Info {
+public class Animal implements Info { //Реализует все методы интерфейса Info, класс может реализовывать любое
+                                      //количество интерфейсов
     public int id;
 
     public Animal(int id) { //конструктор

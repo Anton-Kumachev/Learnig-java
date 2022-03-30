@@ -1,6 +1,7 @@
 package lesson26.Interfaces;
 
-public class Person implements Info {
+public class Person implements Info { //Реализует все методы интерфейса Info, класс может реализовывать любое
+                                      //количество интерфейсов
     public String name;
 
     public Person(String name) { //конструктор
