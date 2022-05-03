@@ -2,7 +2,7 @@ package Learning_Sort;
 
 import java.util.Arrays;
 
-//Сортировка пузырьком (ТОЛЬКО ОДИН ПРОХОД)
+//Сортировка пузырьком (ТОЛЬКО ОДИН ПРОХОД - НЕ ПОЛНАЯ СОРТИРОВКА)
 
 public class BubbleSort {
     public static void main(String[] args) {

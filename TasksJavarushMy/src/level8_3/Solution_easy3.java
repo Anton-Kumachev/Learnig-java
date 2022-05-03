@@ -10,7 +10,8 @@ import java.util.Map;
 
 public class Solution_easy3 {
     public static void main(String[] args) throws Exception {
-        String[] cats = new String[]{"васька", "мурка", "дымка", "рыжик", "серый", "снежок", "босс", "борис", "визя", "гарфи"};
+        String[] cats = new String[]{"васька", "мурка", "дымка", "рыжик", "серый", "снежок", "босс",
+                                     "борис", "визя", "гарфи"};
 
         Map<String, Cat> map = addCatsToMap(cats);
 
