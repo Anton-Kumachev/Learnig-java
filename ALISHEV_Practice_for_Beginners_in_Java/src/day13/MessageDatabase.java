@@ -3,6 +3,7 @@ package day13;
 //Класс, который будет заниматься хранением сообщений
 
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 public class MessageDatabase {
@@ -28,6 +29,7 @@ public class MessageDatabase {
         for (Message message : messages) {
             if (message.getSender() == u1 && message.getReceiver() == u2
                     || message.getSender() == u2 && message.getReceiver() == u1) {
+                System.out.print(message.getDate() + " ");
                 System.out.println(message.getSender() + ": " + message.getText());
             }
         }
