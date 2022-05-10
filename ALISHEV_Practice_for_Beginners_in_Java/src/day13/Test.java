@@ -13,8 +13,6 @@ package day13;
     метода showDialog().*/
 
 //Класс, где в методе main() мы будем тестировать нашу соц.сеть
-//По итгу Date так нигде и не использован.
-
 
 public class Test {
     public static void main(String[] args) {
