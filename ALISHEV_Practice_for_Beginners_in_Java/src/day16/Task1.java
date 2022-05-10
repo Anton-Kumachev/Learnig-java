@@ -32,9 +32,9 @@ public class Task1 {
             for (String number : numbers) {
                 sum += Integer.parseInt(number);
             }
-                double result = sum / (double) numbers.length; //Приведение целочисленного числа int к
-                //вещественному числу double
-                System.out.printf(result + "--> %.3f", result);
+            double result = sum / (double) numbers.length; //Приведение целочисленного числа int к
+            //вещественному числу double
+            System.out.printf(result + "--> %.3f", result);
 
         } catch (FileNotFoundException e) {
             System.out.println("Файл не найден");
