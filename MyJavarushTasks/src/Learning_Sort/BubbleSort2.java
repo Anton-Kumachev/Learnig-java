@@ -8,8 +8,9 @@ public class BubbleSort2 {
     public static void main(String[] args) {
         int[] array = {10, 2, 12, 3, 1, 4, 5};
 
+        System.out.println(array); // notRight output of massive
         System.out.println("Первоначальный массив:");
-        System.out.println(Arrays.toString(array));
+        System.out.println(Arrays.toString(array)); //Right output of massive
         boolean newIteration = true;
         while (newIteration) {
             newIteration = false;

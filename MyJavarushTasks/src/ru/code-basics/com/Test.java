@@ -4,8 +4,8 @@ import java.util.ArrayList;
 
 public class Test {
     public static void main(String[] args) {
-        var company = "Hexlet";
-        var companyLength = company.length();
+        String company = "Hexlet";
+        int companyLength = company.length();
         System.out.println(companyLength);
 
         String[] array = new String[10];

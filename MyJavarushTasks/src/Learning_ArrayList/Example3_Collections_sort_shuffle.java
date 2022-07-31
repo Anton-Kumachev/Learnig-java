@@ -12,9 +12,9 @@ public class Example3_Collections_sort_shuffle {
             lottery.add(i);//добавляем в барабан числа от 1 до 100
         }
         Collections.shuffle(lottery);//перемешиваем
-        System.out.println("Внимание! Из барабана появляются первые 10 чисел!");
+        System.out.println("Внимание! Из барабана появляются первые 10 чисел:");
         for (int i = 0; i < 10; i++) {
-            System.out.println(lottery.get(i));
+            System.out.print(lottery.get(i) + " ");
         }
     }
 }

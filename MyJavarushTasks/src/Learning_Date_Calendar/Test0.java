@@ -5,7 +5,7 @@ package Learning_Date_Calendar;
 import java.text.SimpleDateFormat;
 import java.util.GregorianCalendar;
 
-public class Test {
+public class Test0 {
     public static void main(String[] args) throws InterruptedException {
         SimpleDateFormat dateFormat = new SimpleDateFormat("EEEE, d MMMM yyyy");
         GregorianCalendar calendar = new GregorianCalendar();
