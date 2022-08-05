@@ -12,6 +12,6 @@ public class Test2 {
         Date newTime = new Date();               //получаем новое текущее время
 
         long msDelay = newTime.getTime() - currentTime.getTime(); //вычисляем разницу
-        System.out.println("Time distance is: " + msDelay + " in ms");
+        System.out.println("Time distance is: " + msDelay + " ms");
     }
 }
