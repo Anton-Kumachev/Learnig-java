@@ -25,9 +25,10 @@ public class Solution_easy3 {
     public static long getGetTimeInMs(List list) {
         // напишите тут ваш код
         Date start = new Date();
-        get10000(list);
+        get10000(list);//Тут мы вызываем элемент из середины списка
         // напишите тут ваш код
-        Date end = new Date();
+        Date end = new Date(); //Создаём новый объект, чтобы "замерить" время, которое прошло с момента обращения
+                               // к элементу из середины списка
         return end.getTime() - start.getTime();
     }
 
