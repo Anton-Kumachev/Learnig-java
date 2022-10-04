@@ -1,4 +1,4 @@
-package Learning_Sort;
+package Learning_BubleSort;
 
 import java.util.Arrays;
 
