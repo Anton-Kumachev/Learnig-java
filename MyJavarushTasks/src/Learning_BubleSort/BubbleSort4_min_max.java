@@ -1,15 +1,15 @@
 package Learning_BubleSort;
 
-//Сортировка пузырьком
+//Сортировка пузырьком по убыванию
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
-public class BubbleSort4 {
+public class BubbleSort4_min_max {
     public static void main(String[] args) throws Exception {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-        int[] array = new int[20];
-        for (int i = 0; i < 20; i++) {
+        int[] array = new int[10];
+        for (int i = 0; i < 10; i++) {
             array[i] = Integer.parseInt(reader.readLine());
         }
         sort(array); //Сортируем по убыванию (самописный метод)
@@ -25,10 +25,10 @@ public class BubbleSort4 {
         while (!isSorted) {
             isSorted = true;
             for (int i = 0; i < array.length - 1; i++) {
-                int max = array[i];
-                if (array[i + 1] > max) {
+                int min = array[i];
+                if (array[i + 1] < min) {
                     array[i] = array[i + 1];
-                    array[i + 1] = max;
+                    array[i + 1] = min;
                     isSorted = false;
                 }
             }
