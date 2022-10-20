@@ -1,0 +1,23 @@
+package level11_11;
+//package com.javarush.task.task11.task1116;
+
+/*
+Цепочка наследования
+*/
+
+public class Solution_easy6 {
+    public static void main(String[] args) {
+    }
+
+    public class Pet {
+
+    }
+
+    public class Cat extends Pet {
+
+    }
+
+    public class Dog extends Pet {
+
+    }
+}
